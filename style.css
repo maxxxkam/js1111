@@ -159,3 +159,32 @@ body{
     
     gap: 10px;
 }
+
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+    margin-bottom: 102px;
+}
+
+
+.cart{
+    display: flex;
+    justify-content: start;
+    width: 380px;
+    height: 190px;
+    background-color: white;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 200px;
+    h5{
+        font-size: 20px;
+    }
+    p{
+        opacity: 50%;
+        padding-top: 10px;
+        
+    }
+}
